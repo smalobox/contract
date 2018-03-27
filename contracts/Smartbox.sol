@@ -60,6 +60,7 @@ contract Smartbox {
 	function returnBox() public {
 		require (authorizedUsers[index][msg.sender] == true || msg.sender == owner);
 
+		delete authorizedUsers[index][msg.sender];
 		endTimestamp = 0;
 		Returned(address(this), msg.sender);
 	}
