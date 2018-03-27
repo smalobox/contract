@@ -5,6 +5,7 @@ contract Smartbox {
 	uint256 public index;
 
 	address public owner;
+	address public renter;
 
 	uint256 public endTimestamp;
 	uint256 public duration;
@@ -13,6 +14,7 @@ contract Smartbox {
 	event Rented(address indexed smartbox, address indexed _from, uint256 _value);
 	event Opened(address indexed smartbox, address indexed _from);
 	event Returned(address indexed smartbox, address indexed _from);
+	event Authorized(address indexed smartbox, address indexed _from);
 
 	function Smartbox() public {
 		owner = msg.sender;
@@ -33,6 +35,7 @@ contract Smartbox {
 		endTimestamp = now + duration * 60;
 		index += 1;
 		authorizedUsers[index][msg.sender] = true;
+		renter = msg.sender;
 
 //		emit the event Rented
 		Rented(address(this), msg.sender, duration);
@@ -63,5 +66,11 @@ contract Smartbox {
 		delete authorizedUsers[index][msg.sender];
 		endTimestamp = 0;
 		Returned(address(this), msg.sender);
+	}
+
+	function authorizeUser(address account) public {
+		require(renter == msg.sender);
+		authorizedUsers[index][account] = true;
+		Authorized(address(this), account);
 	}
 }

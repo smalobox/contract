@@ -52,15 +52,6 @@ contract('Smartbox', (accounts) => {
     }
   })
 
-  function sleep(milliseconds) {
-    var start = new Date().getTime();
-    for (var i = 0; i < 1e7; i++) {
-      if ((new Date().getTime() - start) > milliseconds){
-        break;
-      }
-    }
-  }
-
   it("the owner should be able to withdraw the ether", async () => {
     const smartbox = await Smartbox.deployed();
     await smartbox.returnBox();
@@ -104,5 +95,27 @@ contract('Smartbox', (accounts) => {
       }, 65000);
     });
   })
+
+  it("should authorize other users to open the box", async () => {
+    const smartbox = await Smartbox.deployed();
+    await smartbox.returnBox();
+
+    await smartbox.rent({from: accounts[1], value: web3.toWei(0.005, "ether")});
+
+    try {
+      await smartbox.open({from: accounts[2]});
+      assert.fail("Not authorized users can open the box");
+    } catch (err) {
+      assert.include(err.toString(), 'revert', "error message doesn't contain revert!");
+    }
+
+    await smartbox.authorizeUser(accounts[2], {from: accounts[1]});
+
+    await smartbox.open({from: accounts[2]});
+
+    await smartbox.open({from: accounts[1]});
+  })
+
+
 
 });
