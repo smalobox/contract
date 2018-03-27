@@ -52,20 +52,29 @@ contract('Smartbox', (accounts) => {
     }
   })
 
-  // it("the owner should be able to withdraw the ether", async () => {
-  //   const smartbox = await Smartbox.deployed();
-  //   await smartbox.returnBox();
-  //
-  //   const balance_before = web3.eth.getBalance(accounts[0]);
-  //
-  //   await smartbox.rent({from: accounts[1], value: web3.toWei(0.005, "ether")});
-  //
-  //   await smartbox.withdraw({from: accounts[0]});
-  //
-  //   const balance_after = web3.eth.getBalance(accounts[0]);
-  //
-  //   assert.equal(balance_after.toNumber(), balance_before.toNumber() + web3.toWei(0.005, "ether"), "The owner doesn't get the correct amount of ether");
-  // })
+  function sleep(milliseconds) {
+    var start = new Date().getTime();
+    for (var i = 0; i < 1e7; i++) {
+      if ((new Date().getTime() - start) > milliseconds){
+        break;
+      }
+    }
+  }
+
+  it("the owner should be able to withdraw the ether", async () => {
+    const smartbox = await Smartbox.deployed();
+    await smartbox.returnBox();
+    await smartbox.withdraw({from: accounts[0]});
+    let balance = await web3.eth.getBalance(smartbox.address);
+    assert.equal(balance, 0, "The balance of the smart box contract is not 0");
+
+    await smartbox.rent({from: accounts[1], value: web3.toWei(0.005, "ether"), gas: 100000});
+
+    const tx = await smartbox.withdraw({from: accounts[0]});
+
+    balance = await web3.eth.getBalance(smartbox.address);
+    assert.equal(balance, 0, "The balance of the smart box contract is not 0");
+  })
 
   it("only the owner can withdraw the ether", async () => {
     const smartbox = await Smartbox.deployed();
@@ -78,8 +87,22 @@ contract('Smartbox', (accounts) => {
     }
   })
 
-  it("the box should be available again after the rent times out", async () => {
-
+  it("the box should be available again after the rent times out", (done) => {
+    let smartbox;
+    Smartbox.deployed()
+      .then((instance) => {
+        smartbox = instance;
+        return smartbox.returnBox();
+      }).then(() => {
+        return smartbox.rent({from: accounts[1], value: web3.toWei(0.001, "ether")});
+    }).then(() => {
+      setTimeout(() => {
+        smartbox.rent({from: accounts[2], value: web3.toWei(0.001, "ether")})
+          .then(() => {
+            done();
+          })
+      }, 65000);
+    });
   })
 
 });
