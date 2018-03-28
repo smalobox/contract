@@ -1,5 +1,5 @@
-var Smartbox = artifacts.require("./Smartbox.sol");
+var smalobox = artifacts.require("./smalobox.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(Smartbox);
+  deployer.deploy(smalobox);
 };

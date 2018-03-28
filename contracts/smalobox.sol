@@ -1,6 +1,6 @@
 pragma solidity ^0.4.18;
 
-contract Smartbox {
+contract smalobox {
 	mapping (uint256 => mapping (address => bool)) public authorizedUsers;
 	uint256 public index;
 
@@ -16,7 +16,7 @@ contract Smartbox {
 	event Returned(address indexed smartbox, address indexed _from);
 	event Authorized(address indexed smartbox, address indexed _from);
 
-	function Smartbox() public {
+	function smalobox() public {
 		owner = msg.sender;
 	}
 

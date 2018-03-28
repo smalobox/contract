@@ -1,4 +1,4 @@
-var Smartbox = artifacts.require("./Smartbox.sol");
+var Smartbox = artifacts.require("./smalobox.sol");
 
 contract('Smartbox', (accounts) => {
   it("should have the first account as owner", async () => {

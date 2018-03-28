@@ -1,5 +1,5 @@
 {
-  "contractName": "Smartbox",
+  "contractName": "smalobox",
   "abi": [
     {
       "constant": true,
@@ -243,16 +243,16 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x606060405266038d7ea4c68000600655341561001a57600080fd5b33600260006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550610a148061006a6000396000f3006060604052600436106100ba576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630fb5a6b4146100bf5780631c9a5ddf146100e85780632986c0e5146100fd5780632e88ab0b146101265780633ccfd60b1461017b57806367c2a3601461019057806382996d9f146101c9578063894e5f2d146101d35780638da5cb5b14610224578063a5663a9f14610279578063a85adeab146102d3578063fcfff16f146102fc575b600080fd5b34156100ca57600080fd5b6100d2610311565b6040518082815260200191505060405180910390f35b34156100f357600080fd5b6100fb610317565b005b341561010857600080fd5b6101106104a5565b6040518082815260200191505060405180910390f35b341561013157600080fd5b6101396104ab565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561018657600080fd5b61018e6104d1565b005b341561019b57600080fd5b6101c7600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506105ce565b005b6101d16106f1565b005b34156101de57600080fd5b61020a600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610858565b604051808215151515815260200191505060405180910390f35b341561022f57600080fd5b6102376108c0565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561028457600080fd5b6102b9600480803590602001909190803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506108e6565b604051808215151515815260200191505060405180910390f35b34156102de57600080fd5b6102e6610915565b6040518082815260200191505060405180910390f35b341561030757600080fd5b61030f61091b565b005b60055481565b60011515600080600154815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16151514806103d55750600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16145b15156103e057600080fd5b600080600154815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81549060ff021916905560006004819055503373ffffffffffffffffffffffffffffffffffffffff163073ffffffffffffffffffffffffffffffffffffffff167f68dad5ac279e871c27daa590e87ab6187ea8f679f17ad812e32bdc4b0d0d241e60405160405180910390a3565b60015481565b600360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b3373ffffffffffffffffffffffffffffffffffffffff16600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614151561052d57600080fd5b60003073ffffffffffffffffffffffffffffffffffffffff163111151561055357600080fd5b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc3073ffffffffffffffffffffffffffffffffffffffff16319081150290604051600060405180830381858888f1935050505015156105cc57600080fd5b565b3373ffffffffffffffffffffffffffffffffffffffff16600360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614151561062a57600080fd5b6001600080600154815260200190815260200160002060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055508073ffffffffffffffffffffffffffffffffffffffff163073ffffffffffffffffffffffffffffffffffffffff167ff5a7f4fb8a92356e8c8c4ae7ac3589908381450500a7e2fd08c95600021ee88960405160405180910390a350565b6004544211151561070157600080fd5b600654341015151561071257600080fd5b6006543481151561071f57fe5b04600581905550603c600554024201600481905550600180600082825401925050819055506001600080600154815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff02191690831515021790555033600360006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055503373ffffffffffffffffffffffffffffffffffffffff163073ffffffffffffffffffffffffffffffffffffffff167fac75316accb77b26ecc143a55be4dfbc1b88f937c0d1234f7a3aad8b4d55d22d6005546040518082815260200191505060405180910390a3565b6000806000600154815260200190815260200160002060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff169050919050565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60006020528160005260406000206020528060005260406000206000915091509054906101000a900460ff1681565b60045481565b60011515600080600154815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16151514151561098c57600080fd5b3373ffffffffffffffffffffffffffffffffffffffff163073ffffffffffffffffffffffffffffffffffffffff167f30adae56e824dbe94bc8ef71fb75f1f014546cf2913ebd822eb4464d2ffd31d160405160405180910390a35600a165627a7a72305820d4abfd1767917a56cd14e07a3d53593f96fdbbcde95b6c73840eeaebfebbd44d0029",
-  "deployedBytecode": "0x6060604052600436106100ba576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630fb5a6b4146100bf5780631c9a5ddf146100e85780632986c0e5146100fd5780632e88ab0b146101265780633ccfd60b1461017b57806367c2a3601461019057806382996d9f146101c9578063894e5f2d146101d35780638da5cb5b14610224578063a5663a9f14610279578063a85adeab146102d3578063fcfff16f146102fc575b600080fd5b34156100ca57600080fd5b6100d2610311565b6040518082815260200191505060405180910390f35b34156100f357600080fd5b6100fb610317565b005b341561010857600080fd5b6101106104a5565b6040518082815260200191505060405180910390f35b341561013157600080fd5b6101396104ab565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561018657600080fd5b61018e6104d1565b005b341561019b57600080fd5b6101c7600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506105ce565b005b6101d16106f1565b005b34156101de57600080fd5b61020a600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610858565b604051808215151515815260200191505060405180910390f35b341561022f57600080fd5b6102376108c0565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561028457600080fd5b6102b9600480803590602001909190803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506108e6565b604051808215151515815260200191505060405180910390f35b34156102de57600080fd5b6102e6610915565b6040518082815260200191505060405180910390f35b341561030757600080fd5b61030f61091b565b005b60055481565b60011515600080600154815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16151514806103d55750600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16145b15156103e057600080fd5b600080600154815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81549060ff021916905560006004819055503373ffffffffffffffffffffffffffffffffffffffff163073ffffffffffffffffffffffffffffffffffffffff167f68dad5ac279e871c27daa590e87ab6187ea8f679f17ad812e32bdc4b0d0d241e60405160405180910390a3565b60015481565b600360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b3373ffffffffffffffffffffffffffffffffffffffff16600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614151561052d57600080fd5b60003073ffffffffffffffffffffffffffffffffffffffff163111151561055357600080fd5b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc3073ffffffffffffffffffffffffffffffffffffffff16319081150290604051600060405180830381858888f1935050505015156105cc57600080fd5b565b3373ffffffffffffffffffffffffffffffffffffffff16600360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614151561062a57600080fd5b6001600080600154815260200190815260200160002060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055508073ffffffffffffffffffffffffffffffffffffffff163073ffffffffffffffffffffffffffffffffffffffff167ff5a7f4fb8a92356e8c8c4ae7ac3589908381450500a7e2fd08c95600021ee88960405160405180910390a350565b6004544211151561070157600080fd5b600654341015151561071257600080fd5b6006543481151561071f57fe5b04600581905550603c600554024201600481905550600180600082825401925050819055506001600080600154815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff02191690831515021790555033600360006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055503373ffffffffffffffffffffffffffffffffffffffff163073ffffffffffffffffffffffffffffffffffffffff167fac75316accb77b26ecc143a55be4dfbc1b88f937c0d1234f7a3aad8b4d55d22d6005546040518082815260200191505060405180910390a3565b6000806000600154815260200190815260200160002060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff169050919050565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60006020528160005260406000206020528060005260406000206000915091509054906101000a900460ff1681565b60045481565b60011515600080600154815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16151514151561098c57600080fd5b3373ffffffffffffffffffffffffffffffffffffffff163073ffffffffffffffffffffffffffffffffffffffff167f30adae56e824dbe94bc8ef71fb75f1f014546cf2913ebd822eb4464d2ffd31d160405160405180910390a35600a165627a7a72305820d4abfd1767917a56cd14e07a3d53593f96fdbbcde95b6c73840eeaebfebbd44d0029",
+  "bytecode": "0x606060405266038d7ea4c68000600655341561001a57600080fd5b33600260006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550610a148061006a6000396000f3006060604052600436106100ba576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630fb5a6b4146100bf5780631c9a5ddf146100e85780632986c0e5146100fd5780632e88ab0b146101265780633ccfd60b1461017b57806367c2a3601461019057806382996d9f146101c9578063894e5f2d146101d35780638da5cb5b14610224578063a5663a9f14610279578063a85adeab146102d3578063fcfff16f146102fc575b600080fd5b34156100ca57600080fd5b6100d2610311565b6040518082815260200191505060405180910390f35b34156100f357600080fd5b6100fb610317565b005b341561010857600080fd5b6101106104a5565b6040518082815260200191505060405180910390f35b341561013157600080fd5b6101396104ab565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561018657600080fd5b61018e6104d1565b005b341561019b57600080fd5b6101c7600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506105ce565b005b6101d16106f1565b005b34156101de57600080fd5b61020a600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610858565b604051808215151515815260200191505060405180910390f35b341561022f57600080fd5b6102376108c0565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561028457600080fd5b6102b9600480803590602001909190803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506108e6565b604051808215151515815260200191505060405180910390f35b34156102de57600080fd5b6102e6610915565b6040518082815260200191505060405180910390f35b341561030757600080fd5b61030f61091b565b005b60055481565b60011515600080600154815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16151514806103d55750600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16145b15156103e057600080fd5b600080600154815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81549060ff021916905560006004819055503373ffffffffffffffffffffffffffffffffffffffff163073ffffffffffffffffffffffffffffffffffffffff167f68dad5ac279e871c27daa590e87ab6187ea8f679f17ad812e32bdc4b0d0d241e60405160405180910390a3565b60015481565b600360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b3373ffffffffffffffffffffffffffffffffffffffff16600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614151561052d57600080fd5b60003073ffffffffffffffffffffffffffffffffffffffff163111151561055357600080fd5b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc3073ffffffffffffffffffffffffffffffffffffffff16319081150290604051600060405180830381858888f1935050505015156105cc57600080fd5b565b3373ffffffffffffffffffffffffffffffffffffffff16600360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614151561062a57600080fd5b6001600080600154815260200190815260200160002060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055508073ffffffffffffffffffffffffffffffffffffffff163073ffffffffffffffffffffffffffffffffffffffff167ff5a7f4fb8a92356e8c8c4ae7ac3589908381450500a7e2fd08c95600021ee88960405160405180910390a350565b6004544211151561070157600080fd5b600654341015151561071257600080fd5b6006543481151561071f57fe5b04600581905550603c600554024201600481905550600180600082825401925050819055506001600080600154815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff02191690831515021790555033600360006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055503373ffffffffffffffffffffffffffffffffffffffff163073ffffffffffffffffffffffffffffffffffffffff167fac75316accb77b26ecc143a55be4dfbc1b88f937c0d1234f7a3aad8b4d55d22d6005546040518082815260200191505060405180910390a3565b6000806000600154815260200190815260200160002060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff169050919050565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60006020528160005260406000206020528060005260406000206000915091509054906101000a900460ff1681565b60045481565b60011515600080600154815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16151514151561098c57600080fd5b3373ffffffffffffffffffffffffffffffffffffffff163073ffffffffffffffffffffffffffffffffffffffff167f30adae56e824dbe94bc8ef71fb75f1f014546cf2913ebd822eb4464d2ffd31d160405160405180910390a35600a165627a7a72305820cb75086cd178cb64ba4fe10fc40f6dd51061a97ace5ebd01dd6375aac1f1eff10029",
+  "deployedBytecode": "0x6060604052600436106100ba576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630fb5a6b4146100bf5780631c9a5ddf146100e85780632986c0e5146100fd5780632e88ab0b146101265780633ccfd60b1461017b57806367c2a3601461019057806382996d9f146101c9578063894e5f2d146101d35780638da5cb5b14610224578063a5663a9f14610279578063a85adeab146102d3578063fcfff16f146102fc575b600080fd5b34156100ca57600080fd5b6100d2610311565b6040518082815260200191505060405180910390f35b34156100f357600080fd5b6100fb610317565b005b341561010857600080fd5b6101106104a5565b6040518082815260200191505060405180910390f35b341561013157600080fd5b6101396104ab565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561018657600080fd5b61018e6104d1565b005b341561019b57600080fd5b6101c7600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506105ce565b005b6101d16106f1565b005b34156101de57600080fd5b61020a600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610858565b604051808215151515815260200191505060405180910390f35b341561022f57600080fd5b6102376108c0565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561028457600080fd5b6102b9600480803590602001909190803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506108e6565b604051808215151515815260200191505060405180910390f35b34156102de57600080fd5b6102e6610915565b6040518082815260200191505060405180910390f35b341561030757600080fd5b61030f61091b565b005b60055481565b60011515600080600154815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16151514806103d55750600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16145b15156103e057600080fd5b600080600154815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81549060ff021916905560006004819055503373ffffffffffffffffffffffffffffffffffffffff163073ffffffffffffffffffffffffffffffffffffffff167f68dad5ac279e871c27daa590e87ab6187ea8f679f17ad812e32bdc4b0d0d241e60405160405180910390a3565b60015481565b600360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b3373ffffffffffffffffffffffffffffffffffffffff16600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614151561052d57600080fd5b60003073ffffffffffffffffffffffffffffffffffffffff163111151561055357600080fd5b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc3073ffffffffffffffffffffffffffffffffffffffff16319081150290604051600060405180830381858888f1935050505015156105cc57600080fd5b565b3373ffffffffffffffffffffffffffffffffffffffff16600360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614151561062a57600080fd5b6001600080600154815260200190815260200160002060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055508073ffffffffffffffffffffffffffffffffffffffff163073ffffffffffffffffffffffffffffffffffffffff167ff5a7f4fb8a92356e8c8c4ae7ac3589908381450500a7e2fd08c95600021ee88960405160405180910390a350565b6004544211151561070157600080fd5b600654341015151561071257600080fd5b6006543481151561071f57fe5b04600581905550603c600554024201600481905550600180600082825401925050819055506001600080600154815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff02191690831515021790555033600360006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055503373ffffffffffffffffffffffffffffffffffffffff163073ffffffffffffffffffffffffffffffffffffffff167fac75316accb77b26ecc143a55be4dfbc1b88f937c0d1234f7a3aad8b4d55d22d6005546040518082815260200191505060405180910390a3565b6000806000600154815260200190815260200160002060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff169050919050565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60006020528160005260406000206020528060005260406000206000915091509054906101000a900460ff1681565b60045481565b60011515600080600154815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16151514151561098c57600080fd5b3373ffffffffffffffffffffffffffffffffffffffff163073ffffffffffffffffffffffffffffffffffffffff167f30adae56e824dbe94bc8ef71fb75f1f014546cf2913ebd822eb4464d2ffd31d160405160405180910390a35600a165627a7a72305820cb75086cd178cb64ba4fe10fc40f6dd51061a97ace5ebd01dd6375aac1f1eff10029",
   "sourceMap": "26:2102:0:-;;;271:11;247:35;;565:53;;;;;;;;604:10;596:5;;:18;;;;;;;;;;;;;;;;;;26:2102;;;;;;",
   "deployedSourceMap": "26:2102:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;221:23;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1743:216;;;;;;;;;;;;;;119:20;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;166:21;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1479:142;;;;;;;;;;;;;;1962:164;;;;;;;;;;;;;;;;;;;;;;;;;;;;621:705;;;;;;1624:116;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;143:20;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;47:69;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;191:27;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1329:147;;;;;;;;;;;;;;221:23;;;;:::o;1743:216::-;1822:4;1784:42;;:15;:22;1800:5;;1784:22;;;;;;;;;;;:34;1807:10;1784:34;;;;;;;;;;;;;;;;;;;;;;;;;:42;;;:65;;;;1844:5;;;;;;;;;;;1830:19;;:10;:19;;;1784:65;1775:75;;;;;;;;1862:15;:22;1878:5;;1862:22;;;;;;;;;;;:34;1885:10;1862:34;;;;;;;;;;;;;;;;1855:41;;;;;;;;;;;1915:1;1900:12;:16;;;;1944:10;1920:35;;1937:4;1920:35;;;;;;;;;;;;1743:216::o;119:20::-;;;;:::o;166:21::-;;;;;;;;;;;;;:::o;1479:142::-;1527:10;1518:19;;:5;;;;;;;;;;;:19;;;1510:28;;;;;;;;1574:1;1558:4;1550:21;;;:25;1542:34;;;;;;;;1580:5;;;;;;;;;;;:14;;:37;1603:4;1595:21;;;1580:37;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1479:142::o;1962:164::-;2031:10;2021:20;;:6;;;;;;;;;;;:20;;;2013:29;;;;;;;;2080:4;2046:15;:22;2062:5;;2046:22;;;;;;;;;;;:31;2069:7;2046:31;;;;;;;;;;;;;;;;:38;;;;;;;;;;;;;;;;;;2114:7;2088:34;;2107:4;2088:34;;;;;;;;;;;;1962:164;:::o;621:705::-;711:12;;705:3;:18;696:28;;;;;;;;779:13;;766:9;:26;;757:36;;;;;;;;947:13;;935:9;:25;;;;;;;;923:8;:38;;;;1052:2;1041:8;;:13;1035:3;:19;1020:12;:34;;;;1067:1;1058:5;;:10;;;;;;;;;;;1109:4;1072:15;:22;1088:5;;1072:22;;;;;;;;;;;:34;1095:10;1072:34;;;;;;;;;;;;;;;;:41;;;;;;;;;;;;;;;;;;1126:10;1117:6;;:19;;;;;;;;;;;;;;;;;;1189:10;1167:43;;1182:4;1167:43;;;1201:8;;1167:43;;;;;;;;;;;;;;;;;;621:705::o;1624:116::-;1688:4;1705:15;:22;1721:5;;1705:22;;;;;;;;;;;:31;1728:7;1705:31;;;;;;;;;;;;;;;;;;;;;;;;;1698:38;;1624:116;;;:::o;143:20::-;;;;;;;;;;;;;:::o;47:69::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;191:27::-;;;;:::o;1329:147::-;1429:4;1391:42;;:15;:22;1407:5;;1391:22;;;;;;;;;;;:34;1414:10;1391:34;;;;;;;;;;;;;;;;;;;;;;;;;:42;;;1382:52;;;;;;;;1461:10;1439:33;;1454:4;1439:33;;;;;;;;;;;;1329:147::o",
-  "source": "pragma solidity ^0.4.18;\n\ncontract Smartbox {\n\tmapping (uint256 => mapping (address => bool)) public authorizedUsers;\n\tuint256 public index;\n\n\taddress public owner;\n\taddress public renter;\n\n\tuint256 public endTimestamp;\n\tuint256 public duration;\n\tuint256 minimumAmount = 0.001 ether;\n\n\tevent Rented(address indexed smartbox, address indexed _from, uint256 _value);\n\tevent Opened(address indexed smartbox, address indexed _from);\n\tevent Returned(address indexed smartbox, address indexed _from);\n\tevent Authorized(address indexed smartbox, address indexed _from);\n\n\tfunction Smartbox() public {\n\t\towner = msg.sender;\n\t}\n\n\tfunction rent() public payable {\n//\t\tcheck if the smart box is available\n\t\trequire (now > endTimestamp);\n\n//\t\tcheck ether transferred\n\t\trequire (msg.value >= minimumAmount);\n\n//\t\tcalculate the duration for the rent based on the ether transferred\n//\t\tminimumAmount corresponds one minute renting time\n\t\tduration = (msg.value / minimumAmount);\n\n//\t\tset the variable authorizedUsers and endTimestamp\n\t\tendTimestamp = now + duration * 60;\n\t\tindex += 1;\n\t\tauthorizedUsers[index][msg.sender] = true;\n\t\trenter = msg.sender;\n\n//\t\temit the event Rented\n\t\tRented(address(this), msg.sender, duration);\n\n//\t\tsmart contracts possesses the ether. The ether should be transferred to the smart box owner in the future.\n\t}\n\n\tfunction open() public {\n//\t\tcheck if permissioned\n\t\trequire (authorizedUsers[index][msg.sender] == true);\n\n\t\tOpened(address(this), msg.sender);\n\t}\n\n\tfunction withdraw() public {\n\t\trequire(owner == msg.sender);\n\t\trequire(address(this).balance > 0);\n\t\towner.transfer(address(this).balance);\n\t}\n\n\tfunction isUserAuthorized(address account) public view returns (bool) {\n\t\treturn authorizedUsers[index][account];\n\t}\n\n\tfunction returnBox() public {\n\t\trequire (authorizedUsers[index][msg.sender] == true || msg.sender == owner);\n\n\t\tdelete authorizedUsers[index][msg.sender];\n\t\tendTimestamp = 0;\n\t\tReturned(address(this), msg.sender);\n\t}\n\n\tfunction authorizeUser(address account) public {\n\t\trequire(renter == msg.sender);\n\t\tauthorizedUsers[index][account] = true;\n\t\tAuthorized(address(this), account);\n\t}\n}\n",
-  "sourcePath": "/Users/innogy-hao/dev/ethereumcamp/smartbox/contracts/Smartbox.sol",
+  "source": "pragma solidity ^0.4.18;\n\ncontract smalobox {\n\tmapping (uint256 => mapping (address => bool)) public authorizedUsers;\n\tuint256 public index;\n\n\taddress public owner;\n\taddress public renter;\n\n\tuint256 public endTimestamp;\n\tuint256 public duration;\n\tuint256 minimumAmount = 0.001 ether;\n\n\tevent Rented(address indexed smartbox, address indexed _from, uint256 _value);\n\tevent Opened(address indexed smartbox, address indexed _from);\n\tevent Returned(address indexed smartbox, address indexed _from);\n\tevent Authorized(address indexed smartbox, address indexed _from);\n\n\tfunction smalobox() public {\n\t\towner = msg.sender;\n\t}\n\n\tfunction rent() public payable {\n//\t\tcheck if the smart box is available\n\t\trequire (now > endTimestamp);\n\n//\t\tcheck ether transferred\n\t\trequire (msg.value >= minimumAmount);\n\n//\t\tcalculate the duration for the rent based on the ether transferred\n//\t\tminimumAmount corresponds one minute renting time\n\t\tduration = (msg.value / minimumAmount);\n\n//\t\tset the variable authorizedUsers and endTimestamp\n\t\tendTimestamp = now + duration * 60;\n\t\tindex += 1;\n\t\tauthorizedUsers[index][msg.sender] = true;\n\t\trenter = msg.sender;\n\n//\t\temit the event Rented\n\t\tRented(address(this), msg.sender, duration);\n\n//\t\tsmart contracts possesses the ether. The ether should be transferred to the smart box owner in the future.\n\t}\n\n\tfunction open() public {\n//\t\tcheck if permissioned\n\t\trequire (authorizedUsers[index][msg.sender] == true);\n\n\t\tOpened(address(this), msg.sender);\n\t}\n\n\tfunction withdraw() public {\n\t\trequire(owner == msg.sender);\n\t\trequire(address(this).balance > 0);\n\t\towner.transfer(address(this).balance);\n\t}\n\n\tfunction isUserAuthorized(address account) public view returns (bool) {\n\t\treturn authorizedUsers[index][account];\n\t}\n\n\tfunction returnBox() public {\n\t\trequire (authorizedUsers[index][msg.sender] == true || msg.sender == owner);\n\n\t\tdelete authorizedUsers[index][msg.sender];\n\t\tendTimestamp = 0;\n\t\tReturned(address(this), msg.sender);\n\t}\n\n\tfunction authorizeUser(address account) public {\n\t\trequire(renter == msg.sender);\n\t\tauthorizedUsers[index][account] = true;\n\t\tAuthorized(address(this), account);\n\t}\n}\n",
+  "sourcePath": "/Users/innogy-hao/dev/ethereumcamp/smartbox/contracts/smalobox.sol",
   "ast": {
-    "absolutePath": "/Users/innogy-hao/dev/ethereumcamp/smartbox/contracts/Smartbox.sol",
+    "absolutePath": "/Users/innogy-hao/dev/ethereumcamp/smartbox/contracts/smalobox.sol",
     "exportedSymbols": {
-      "Smartbox": [
+      "smalobox": [
         250
       ]
     },
@@ -280,7 +280,7 @@
         "linearizedBaseContracts": [
           250
         ],
-        "name": "Smartbox",
+        "name": "smalobox",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
@@ -894,7 +894,7 @@
             "isConstructor": true,
             "isDeclaredConst": false,
             "modifiers": [],
-            "name": "Smartbox",
+            "name": "smalobox",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 47,
@@ -1585,16 +1585,16 @@
                             "referencedDeclaration": 273,
                             "src": "1182:4:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Smartbox_$250",
-                              "typeString": "contract Smartbox"
+                              "typeIdentifier": "t_contract$_smalobox_$250",
+                              "typeString": "contract smalobox"
                             }
                           }
                         ],
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_Smartbox_$250",
-                              "typeString": "contract Smartbox"
+                              "typeIdentifier": "t_contract$_smalobox_$250",
+                              "typeString": "contract smalobox"
                             }
                           ],
                           "id": 106,
@@ -1922,16 +1922,16 @@
                             "referencedDeclaration": 273,
                             "src": "1454:4:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Smartbox_$250",
-                              "typeString": "contract Smartbox"
+                              "typeIdentifier": "t_contract$_smalobox_$250",
+                              "typeString": "contract smalobox"
                             }
                           }
                         ],
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_Smartbox_$250",
-                              "typeString": "contract Smartbox"
+                              "typeIdentifier": "t_contract$_smalobox_$250",
+                              "typeString": "contract smalobox"
                             }
                           ],
                           "id": 130,
@@ -2196,16 +2196,16 @@
                                 "referencedDeclaration": 273,
                                 "src": "1558:4:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_contract$_Smartbox_$250",
-                                  "typeString": "contract Smartbox"
+                                  "typeIdentifier": "t_contract$_smalobox_$250",
+                                  "typeString": "contract smalobox"
                                 }
                               }
                             ],
                             "expression": {
                               "argumentTypes": [
                                 {
-                                  "typeIdentifier": "t_contract$_Smartbox_$250",
-                                  "typeString": "contract Smartbox"
+                                  "typeIdentifier": "t_contract$_smalobox_$250",
+                                  "typeString": "contract smalobox"
                                 }
                               ],
                               "id": 149,
@@ -2330,16 +2330,16 @@
                               "referencedDeclaration": 273,
                               "src": "1603:4:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_Smartbox_$250",
-                                "typeString": "contract Smartbox"
+                                "typeIdentifier": "t_contract$_smalobox_$250",
+                                "typeString": "contract smalobox"
                               }
                             }
                           ],
                           "expression": {
                             "argumentTypes": [
                               {
-                                "typeIdentifier": "t_contract$_Smartbox_$250",
-                                "typeString": "contract Smartbox"
+                                "typeIdentifier": "t_contract$_smalobox_$250",
+                                "typeString": "contract smalobox"
                               }
                             ],
                             "id": 160,
@@ -3043,16 +3043,16 @@
                             "referencedDeclaration": 273,
                             "src": "1937:4:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Smartbox_$250",
-                              "typeString": "contract Smartbox"
+                              "typeIdentifier": "t_contract$_smalobox_$250",
+                              "typeString": "contract smalobox"
                             }
                           }
                         ],
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_Smartbox_$250",
-                              "typeString": "contract Smartbox"
+                              "typeIdentifier": "t_contract$_smalobox_$250",
+                              "typeString": "contract smalobox"
                             }
                           ],
                           "id": 213,
@@ -3409,16 +3409,16 @@
                             "referencedDeclaration": 273,
                             "src": "2107:4:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Smartbox_$250",
-                              "typeString": "contract Smartbox"
+                              "typeIdentifier": "t_contract$_smalobox_$250",
+                              "typeString": "contract smalobox"
                             }
                           }
                         ],
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_Smartbox_$250",
-                              "typeString": "contract Smartbox"
+                              "typeIdentifier": "t_contract$_smalobox_$250",
+                              "typeString": "contract smalobox"
                             }
                           ],
                           "id": 242,
@@ -3565,9 +3565,9 @@
     "src": "0:2129:0"
   },
   "legacyAST": {
-    "absolutePath": "/Users/innogy-hao/dev/ethereumcamp/smartbox/contracts/Smartbox.sol",
+    "absolutePath": "/Users/innogy-hao/dev/ethereumcamp/smartbox/contracts/smalobox.sol",
     "exportedSymbols": {
-      "Smartbox": [
+      "smalobox": [
         250
       ]
     },
@@ -3595,7 +3595,7 @@
         "linearizedBaseContracts": [
           250
         ],
-        "name": "Smartbox",
+        "name": "smalobox",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
@@ -4209,7 +4209,7 @@
             "isConstructor": true,
             "isDeclaredConst": false,
             "modifiers": [],
-            "name": "Smartbox",
+            "name": "smalobox",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 47,
@@ -4900,16 +4900,16 @@
                             "referencedDeclaration": 273,
                             "src": "1182:4:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Smartbox_$250",
-                              "typeString": "contract Smartbox"
+                              "typeIdentifier": "t_contract$_smalobox_$250",
+                              "typeString": "contract smalobox"
                             }
                           }
                         ],
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_Smartbox_$250",
-                              "typeString": "contract Smartbox"
+                              "typeIdentifier": "t_contract$_smalobox_$250",
+                              "typeString": "contract smalobox"
                             }
                           ],
                           "id": 106,
@@ -5237,16 +5237,16 @@
                             "referencedDeclaration": 273,
                             "src": "1454:4:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Smartbox_$250",
-                              "typeString": "contract Smartbox"
+                              "typeIdentifier": "t_contract$_smalobox_$250",
+                              "typeString": "contract smalobox"
                             }
                           }
                         ],
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_Smartbox_$250",
-                              "typeString": "contract Smartbox"
+                              "typeIdentifier": "t_contract$_smalobox_$250",
+                              "typeString": "contract smalobox"
                             }
                           ],
                           "id": 130,
@@ -5511,16 +5511,16 @@
                                 "referencedDeclaration": 273,
                                 "src": "1558:4:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_contract$_Smartbox_$250",
-                                  "typeString": "contract Smartbox"
+                                  "typeIdentifier": "t_contract$_smalobox_$250",
+                                  "typeString": "contract smalobox"
                                 }
                               }
                             ],
                             "expression": {
                               "argumentTypes": [
                                 {
-                                  "typeIdentifier": "t_contract$_Smartbox_$250",
-                                  "typeString": "contract Smartbox"
+                                  "typeIdentifier": "t_contract$_smalobox_$250",
+                                  "typeString": "contract smalobox"
                                 }
                               ],
                               "id": 149,
@@ -5645,16 +5645,16 @@
                               "referencedDeclaration": 273,
                               "src": "1603:4:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_Smartbox_$250",
-                                "typeString": "contract Smartbox"
+                                "typeIdentifier": "t_contract$_smalobox_$250",
+                                "typeString": "contract smalobox"
                               }
                             }
                           ],
                           "expression": {
                             "argumentTypes": [
                               {
-                                "typeIdentifier": "t_contract$_Smartbox_$250",
-                                "typeString": "contract Smartbox"
+                                "typeIdentifier": "t_contract$_smalobox_$250",
+                                "typeString": "contract smalobox"
                               }
                             ],
                             "id": 160,
@@ -6358,16 +6358,16 @@
                             "referencedDeclaration": 273,
                             "src": "1937:4:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Smartbox_$250",
-                              "typeString": "contract Smartbox"
+                              "typeIdentifier": "t_contract$_smalobox_$250",
+                              "typeString": "contract smalobox"
                             }
                           }
                         ],
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_Smartbox_$250",
-                              "typeString": "contract Smartbox"
+                              "typeIdentifier": "t_contract$_smalobox_$250",
+                              "typeString": "contract smalobox"
                             }
                           ],
                           "id": 213,
@@ -6724,16 +6724,16 @@
                             "referencedDeclaration": 273,
                             "src": "2107:4:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Smartbox_$250",
-                              "typeString": "contract Smartbox"
+                              "typeIdentifier": "t_contract$_smalobox_$250",
+                              "typeString": "contract smalobox"
                             }
                           }
                         ],
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_Smartbox_$250",
-                              "typeString": "contract Smartbox"
+                              "typeIdentifier": "t_contract$_smalobox_$250",
+                              "typeString": "contract smalobox"
                             }
                           ],
                           "id": 242,
@@ -6884,13 +6884,25 @@
     "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
   },
   "networks": {
+    "4": {
+      "events": {},
+      "links": {},
+      "address": "0x3b179dfc2e949777afc2bd87c0ef9a2fd4695354",
+      "transactionHash": "0xab7a1c6e8181da9e936e58a668c7f3ae1f33647ebd079bd61bcedd792243e54a"
+    },
+    "4447": {
+      "events": {},
+      "links": {},
+      "address": "0x345ca3e014aaf5dca488057592ee47305d9b3e10",
+      "transactionHash": "0xb55710e02ede6433750b101e15c350fbaf93591719660241e76f958a4eb2b54a"
+    },
     "5777": {
       "events": {},
       "links": {},
       "address": "0x345ca3e014aaf5dca488057592ee47305d9b3e10",
-      "transactionHash": "0xbbfbae39b2cfb280eeb12893cf79804e0679cb1ad5d7b9898aa59ebde063774c"
+      "transactionHash": "0xb55710e02ede6433750b101e15c350fbaf93591719660241e76f958a4eb2b54a"
     }
   },
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-03-27T17:12:34.210Z"
+  "updatedAt": "2018-03-28T09:30:34.364Z"
 }
