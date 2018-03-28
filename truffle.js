@@ -1,6 +1,6 @@
 const HDWalletProvider = require("truffle-hdwallet-provider");
 
-const mnemonic = "enable south social permit fantasy solution canal fresh prize leave volcano seven";
+const mnemonic = process.env.MNEMONIC;
 
 module.exports = {
   networks: {
