@@ -11,10 +11,11 @@ contract smalobox {
 	uint256 public duration;
 	uint256 minimumAmount = 0.001 ether;
 
-	event Rented(address indexed smartbox, address indexed _from, uint256 _value);
+	event Rented(address indexed smartbox, address indexed _from, uint256 _value, uint256 _index);
 	event Opened(address indexed smartbox, address indexed _from);
 	event Returned(address indexed smartbox, address indexed _from);
 	event Authorized(address indexed smartbox, address indexed _from);
+	event Rated(address indexed smartbox, address indexed _renter, uint256 indexed _rating);
 
 	function smalobox() public {
 		owner = msg.sender;
@@ -38,7 +39,7 @@ contract smalobox {
 		renter = msg.sender;
 
 //		emit the event Rented
-		Rented(address(this), msg.sender, duration);
+		Rented(address(this), msg.sender, duration, index);
 
 //		smart contracts possesses the ether. The ether should be transferred to the smart box owner in the future.
 	}
@@ -72,5 +73,13 @@ contract smalobox {
 		require(renter == msg.sender);
 		authorizedUsers[index][account] = true;
 		Authorized(address(this), account);
+	}
+
+	function rate(uint16 _rating, uint256 _index) public {
+		require(authorizedUsers[_index][msg.sender]);
+
+		// optional internal rating variable
+
+		Rated(address(this), msg.sender, _rating);
 	}
 }

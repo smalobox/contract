@@ -116,6 +116,31 @@ contract('Smartbox', (accounts) => {
     await smartbox.open({from: accounts[1]});
   })
 
+  it("The renter should be able to rate", async () => {
+    const smartbox = await Smartbox.deployed();
+    await smartbox.returnBox();
 
+    await smartbox.rent({from: accounts[1], value: web3.toWei(0.005, "ether")});
+
+    const index = await smartbox.index();
+    const tx = await smartbox.rate(1, index, {from: accounts[1]});
+
+    assert.equal(tx.logs[0].event, 'Rated', "the event Rated is not emitted");
+  })
+
+  it("The stranger should not be able to rate", async () => {
+    const smartbox = await Smartbox.deployed();
+    await smartbox.returnBox();
+
+    await smartbox.rent({from: accounts[1], value: web3.toWei(0.005, "ether")});
+
+    const index = await smartbox.index();
+    try {
+      await smartbox.rate(1, index, {from: accounts[2]});
+      assert.fail('Something is wrong! Other peoples can give rating.');
+    } catch (err) {
+      assert.include(err.toString(), 'revert', "error message doesn't contain revert!");
+    }
+  })
 
 });
