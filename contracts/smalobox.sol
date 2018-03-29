@@ -13,6 +13,7 @@ contract smalobox {
 
 	event Rented(address indexed smartbox, address indexed _from, uint256 _value, uint256 _index);
 	event Opened(address indexed smartbox, address indexed _from);
+	event Closed(address indexed smartbox, address indexed _from);
 	event Returned(address indexed smartbox, address indexed _from);
 	event Authorized(address indexed smartbox, address indexed _from);
 	event Rated(address indexed smartbox, address indexed _renter, uint256 indexed _rating);
@@ -49,6 +50,12 @@ contract smalobox {
 		require (authorizedUsers[index][msg.sender] == true);
 
 		Opened(address(this), msg.sender);
+	}
+
+	function close() public {
+		require (authorizedUsers[index][msg.sender] == true);
+
+		Closed(address(this), msg.sender);
 	}
 
 	function withdraw() public {

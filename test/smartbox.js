@@ -143,4 +143,31 @@ contract('Smartbox', (accounts) => {
     }
   })
 
+  it("The authorized user can close the box", async () => {
+    const smartbox = await Smartbox.deployed();
+    await smartbox.returnBox();
+
+    await smartbox.rent({from: accounts[1], value: web3.toWei(0.005, "ether")});
+
+    await smartbox.open({from: accounts[1]});
+
+    await smartbox.close({from: accounts[1]});
+  })
+
+  it("The not authorized users can not close the box", async () => {
+    const smartbox = await Smartbox.deployed();
+    await smartbox.returnBox();
+
+    await smartbox.rent({from: accounts[1], value: web3.toWei(0.005, "ether")});
+
+    await smartbox.open({from: accounts[1]});
+
+    try {
+      await smartbox.close({from: accounts[2]});
+      assert.fail('Something is wrong! Other peoples can close box.');
+    } catch (err) {
+      assert.include(err.toString(), 'revert', "error message doesn't contain revert!");
+    }
+  })
+
 });
