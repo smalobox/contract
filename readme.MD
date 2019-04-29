@@ -27,6 +27,3 @@ and then for test:
 ```
 ./node_modules/.bin/truffle test --network development
 ```
-
-  
-Test
